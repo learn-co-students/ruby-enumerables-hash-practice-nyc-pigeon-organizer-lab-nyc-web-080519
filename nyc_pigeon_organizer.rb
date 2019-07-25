@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
       names_hash[name] = {:color => [],
                           :gender => [],
                           :lives => []
-      }
+                        }
   end
   
   data.each do |key, value|
